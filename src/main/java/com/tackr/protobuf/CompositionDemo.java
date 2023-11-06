@@ -1,5 +1,6 @@
 package com.tackr.protobuf;
 
+import com.google.protobuf.Int32Value;
 import com.tackr.protobuf.models.Address;
 import com.tackr.protobuf.models.Car;
 import com.tackr.protobuf.models.Person;
@@ -9,7 +10,7 @@ public class CompositionDemo {
     public static void main(String[] args) {
         Person lorena = Person.newBuilder()
                 .setName("Lorena")
-                .setAge(24)
+                .setAge(Int32Value.newBuilder().setValue(32).build())
                 .setAddress(Address.newBuilder()
                         .setPostbox(123)
                         .setStreet("Eca de Queiroz")
