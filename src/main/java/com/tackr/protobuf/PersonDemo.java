@@ -1,6 +1,6 @@
 package com.tackr.protobuf;
 
-import com.tackr.protobuf.model.Person;
+import com.tackr.protobuf.models.Person;
 
 import java.io.IOException;
 import java.nio.file.Files;

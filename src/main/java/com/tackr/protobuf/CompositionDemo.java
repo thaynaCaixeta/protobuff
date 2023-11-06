@@ -1,8 +1,8 @@
 package com.tackr.protobuf;
 
-import com.tackr.protobuf.model.Address;
-import com.tackr.protobuf.model.Car;
-import com.tackr.protobuf.model.Person;
+import com.tackr.protobuf.models.Address;
+import com.tackr.protobuf.models.Car;
+import com.tackr.protobuf.models.Person;
 
 public class CompositionDemo {
 

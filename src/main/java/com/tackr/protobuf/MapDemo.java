@@ -1,8 +1,8 @@
 package com.tackr.protobuf;
 
-import com.tackr.protobuf.model.BodyStyle;
-import com.tackr.protobuf.model.Car;
-import com.tackr.protobuf.model.Dealer;
+import com.tackr.protobuf.models.BodyStyle;
+import com.tackr.protobuf.models.Car;
+import com.tackr.protobuf.models.Dealer;
 
 public class MapDemo {
 
